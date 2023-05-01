@@ -10,11 +10,7 @@ y2 = float(p2[1])
 
 raiz = (x2-x1)**2 + (y2-y1)**2
 
-'''
 import math
 total = math.sqrt(raiz)
-'''
-
-total = raiz**0.5
 
 print('%.4f' % total)
